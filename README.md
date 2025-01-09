@@ -3,7 +3,11 @@ This project focuses on detecting duplicate question pairs on Quora using variou
 
 ## Usage
 **Data Preparation:** The dataset is unzipped and loaded into a DataFrame.  
-**Exploratory Data Analysis (EDA):**  Initial analysis is performed to understand the data distribution and identify duplicates.  
+
+**Text Classification:** The training is done in the notebook quora-similar-ques-text-classification in which the all the necessary steps are taken you can run this notebook and save the trained model to be used while prediction.  
+
+**Deployment:**  The notebook quora-dup-ques-deploy contains the code for deploying the same to the grado interface in which you can input two questionS and check whether they are duplicate or not.  
+
 
 ## Data
 The dataset used in this project is the Quora Question Pairs dataset, which can be [found here](https://www.kaggle.com/c/quora-question-pairs/data). The dataset contains pairs of questions along with a label indicating whether they are duplicates (1) or not (0).  
