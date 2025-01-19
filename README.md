@@ -1,5 +1,6 @@
 # Quora Duplicate Question Pair Detection
 This project focuses on detecting duplicate question pairs on Quora using various text classification techniques. The goal is to identify whether two questions are semantically similar, which can enhance user experience by minimizing redundancy.
+<img width="784" alt="quoratext" src="https://github.com/user-attachments/assets/51d8beea-f0bc-4ab9-bb61-685c5adfef1f" />
 
 ## Usage
 **Data Preparation:** The dataset is unzipped and loaded into a DataFrame.  
